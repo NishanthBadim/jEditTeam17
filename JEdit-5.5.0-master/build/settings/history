@@ -1,0 +1,9 @@
+[vfs.browser.path]
+D:\\Assignment02
+D:
+roots:
+D:\\jEditTeam17\\JEdit-5.5.0-master
+[vfs.browser.filter]
+*\[^~#\]
+[action]
+open-file

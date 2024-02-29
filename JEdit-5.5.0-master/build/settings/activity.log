@@ -1,0 +1,134 @@
+Log file created on Thu Feb 29 17:03:34 CST 2024
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+5:03:34 PM [main] [message] Log: When reporting bugs, please include the following information:
+5:03:34 PM [main] [message] Log: java.version=1.8.0_281
+5:03:34 PM [main] [message] Log: java.vm.version=25.281-b09
+5:03:34 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+5:03:34 PM [main] [message] Log: java.runtime.version=1.8.0_281-b09
+5:03:34 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+5:03:34 PM [main] [message] Log: java.vendor=Oracle Corporation
+5:03:34 PM [main] [message] Log: java.compiler=null
+5:03:34 PM [main] [message] Log: os.name=Windows 10
+5:03:34 PM [main] [message] Log: os.version=10.0
+5:03:34 PM [main] [message] Log: os.arch=amd64
+5:03:34 PM [main] [message] Log: user.home=C:\Users\gshra
+5:03:34 PM [main] [message] Log: java.home=C:\Program Files\Java\jdk1.8.0_281\jre
+5:03:34 PM [main] [message] Log: java.class.path=C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;D:\jEditTeam17\JEdit-5.5.0-master\build\classes\core;D:\Assignment02\jsr305-3.0.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar
+5:03:34 PM [main] [message] jEdit: starting with command line arguments: -settings=D:/jEditTeam17/JEdit-5.5.0-master/build/settings
+5:03:34 PM [main] [debug] jEdit: before splash screen activation:84 ms
+5:03:34 PM [main] [debug] jEdit: after splash screen activation:411 ms
+5:03:34 PM [main] [debug] MiscUtilities: Saving backup of file "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\activity.log" to "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\settings-backup\activity.log~1~"
+5:03:34 PM [main] [notice] jEdit: jEdit version 5.5.0
+5:03:34 PM [main] [message] jEdit: Settings directory is D:\jEditTeam17\JEdit-5.5.0-master\build\settings
+5:03:34 PM [main] [message] jEdit: jEdit home directory is D:\jEditTeam17\JEdit-5.5.0-master
+5:03:34 PM [main] [debug] SplashScreen: init:27/208ms
+5:03:34 PM [main] [debug] SplashScreen: init system properties:30/238ms
+5:03:34 PM [main] [message] BeanShell: Beanshell Init
+5:03:34 PM [main] [debug] SplashScreen: init beanshell:74/312ms
+5:03:34 PM [main] [debug] SplashScreen: loading site properties:6/318ms
+5:03:34 PM [main] [debug] SplashScreen: loading user properties:10/328ms
+5:03:34 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+5:03:34 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+5:03:34 PM [main] [debug] SplashScreen: init GUI:7/335ms
+5:03:34 PM [main] [debug] EditServer: jEdit server started on port 56891
+5:03:34 PM [main] [debug] EditServer: Authorization key is 1884589637
+5:03:34 PM [main] [debug] SplashScreen: init server:6/341ms
+5:03:34 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+5:03:34 PM [main] [debug] SplashScreen: init look and feel:9/350ms
+5:03:34 PM [main] [debug] SplashScreen: init VFS Manager:2/352ms
+5:03:34 PM [main] [debug] ActionSet: Loading actions from file:/D:/jEditTeam17/JEdit-5.5.0-master/build/classes/core/org/gjt/sp/jedit/actions.xml
+5:03:34 PM [main] [debug] DockableWindowManager: Loading dockables from file:/D:/jEditTeam17/JEdit-5.5.0-master/build/classes/core/org/gjt/sp/jedit/dockables.xml
+5:03:34 PM [main] [debug] SplashScreen: init resources:114/466ms
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+5:03:35 PM [main] [debug] SplashScreen: Migrate keymaps:32/498ms
+5:03:35 PM [main] [notice] jEdit: Loading plugins from D:\jEditTeam17\JEdit-5.5.0-master\jars
+5:03:35 PM [main] [notice] jEdit: Loading plugins from D:\jEditTeam17\JEdit-5.5.0-master\build\settings\jars
+5:03:35 PM [main] [debug] SplashScreen: init plugins:7/505ms
+5:03:35 PM [main] [message] HistoryModel: Loading history
+5:03:35 PM [main] [debug] SplashScreen: init history model:6/511ms
+5:03:35 PM [main] [message] BufferHistory: Loading D:\jEditTeam17\JEdit-5.5.0-master\build\settings\recent.xml
+5:03:35 PM [main] [debug] SplashScreen: init buffer history:10/521ms
+5:03:35 PM [main] [message] KillRing: Loading D:\jEditTeam17\JEdit-5.5.0-master\build\settings\killring.xml
+5:03:35 PM [main] [debug] SplashScreen: init killring:27/548ms
+5:03:35 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+5:03:35 PM [main] [debug] jEdit: SOCKS proxy disabled
+5:03:35 PM [main] [debug] jEdit: HTTP proxy disabled
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+5:03:35 PM [main] [debug] SplashScreen: init various properties:83/631ms
+5:03:35 PM [main] [message] jEdit: Loading mode catalog file D:\jEditTeam17\JEdit-5.5.0-master\modes\catalog
+5:03:35 PM [main] [message] jEdit: Loading mode catalog file D:\jEditTeam17\JEdit-5.5.0-master\build\settings\modes\catalog
+5:03:35 PM [main] [debug] SplashScreen: init modes:76/707ms
+5:03:35 PM [main] [debug] SplashScreen: activate plugins:5/712ms
+5:03:35 PM [main] [debug] Macros: Registered beanshell macro handler
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+5:03:35 PM [main] [debug] SplashScreen: init macros:14/726ms
+5:03:35 PM [main] [message] BeanShell: Running script D:\jEditTeam17\JEdit-5.5.0-master\startup\startup.bsh
+5:03:35 PM [main] [notice] jEdit$5: Loading edit mode D:\jEditTeam17\JEdit-5.5.0-master\modes\text.xml
+5:03:35 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+5:03:35 PM [main] [debug] SplashScreen: run startup scripts:173/899ms
+5:03:35 PM [main] [debug] SplashScreen: run startup scripts:2/901ms
+5:03:35 PM [main] [debug] SplashScreen: run startup scripts:5/904ms
+5:03:35 PM [main] [debug] jEdit: main done:1175 ms
+5:03:35 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading D:\jEditTeam17\JEdit-5.5.0-master\build\settings\perspective.xml
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Be the Better you.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Be the Better you.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Be the Better you.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Be the Better you.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Books written by John sen.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Books written by John sen.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Books written by John sen.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Books written by John sen.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Geology Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Geology Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Geology Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Geology Books.txt (D:\Assignment02\)]
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297 addBufferAt(Books written by John sen.txt (D:\Assignment02\),-1)
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer added Books written by John sen.txt (D:\Assignment02\) at 0
+5:03:35 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297 addBufferAt(Books written by John sen.txt (D:\Assignment02\),0)
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297 addBufferAt(Be the Better you.txt (D:\Assignment02\),1)
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer added Be the Better you.txt (D:\Assignment02\) at 0
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297 addBufferAt(Books written by John sen.txt (D:\Assignment02\),2)
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297 addBufferAt(Books.txt (D:\Assignment02\),3)
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer added Books.txt (D:\Assignment02\) at 2
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297 addBufferAt(Geology Books.txt (D:\Assignment02\),4)
+5:03:35 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer added Geology Books.txt (D:\Assignment02\) at 3
+5:03:36 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+5:03:36 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+5:03:36 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 2242 ms
+5:03:36 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+5:03:36 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+5:03:54 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving D:\jEditTeam17\JEdit-5.5.0-master\build\settings\perspective.xml
+5:03:54 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\perspective.xml" to "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\settings-backup\perspective.xml~1~"
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer removed Be the Better you.txt (D:\Assignment02\)
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Be the Better you.txt (D:\Assignment02\) is in no bufferSet anymore, closing it
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer removed Books written by John sen.txt (D:\Assignment02\)
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Books written by John sen.txt (D:\Assignment02\) is in no bufferSet anymore, closing it
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer removed Books.txt (D:\Assignment02\)
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+5:03:54 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Books.txt (D:\Assignment02\) is in no bufferSet anymore, closing it
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSet: 130375297: Buffer removed Geology Books.txt (D:\Assignment02\)
+5:03:54 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Geology Books.txt (D:\Assignment02\) is in no bufferSet anymore, closing it
+5:03:54 PM [AWT-EventQueue-0] [message] BufferHistory: Saving D:\jEditTeam17\JEdit-5.5.0-master\build\settings\recent.xml
+5:03:54 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\recent.xml" to "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\settings-backup\recent.xml~1~"
+5:03:54 PM [AWT-EventQueue-0] [message] KillRing: Saving D:\jEditTeam17\JEdit-5.5.0-master\build\settings\killring.xml
+5:03:54 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\killring.xml" to "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\settings-backup\killring.xml~1~"
+5:03:54 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\properties" to "D:\jEditTeam17\JEdit-5.5.0-master\build\settings\settings-backup\properties~1~"

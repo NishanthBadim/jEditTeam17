@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
+<PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">D:\Assignment02\Be the Better you.txt</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">D:\Assignment02\Books written by John sen.txt</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">D:\Assignment02\Books.txt</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">D:\Assignment02\Geology Books.txt</BUFFER>
+<VIEW PLAIN="FALSE">
+<PANES>
+"D:\\Assignment02\\Books written by John sen.txt" buffer "D:\\Assignment02\\Be the Better you.txt" buff "D:\\Assignment02\\Books written by John sen.txt" buff "D:\\Assignment02\\Books.txt" buff "D:\\Assignment02\\Geology Books.txt" buff "global" bufferset
+</PANES>
+<GEOMETRY X="575" Y="211" WIDTH="770" HEIGHT="598" EXT_STATE="0" />
+</VIEW>
+</PERSPECTIVE>
