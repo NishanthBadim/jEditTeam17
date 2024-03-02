@@ -431,12 +431,6 @@ public class StatusBar extends JPanel
 				buf.append(bufferLength);
 				buf.append(')');
 			}
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> d3ab5deaf631d083e539bd1bbb52884f0701c054
 			caretStatus.setText(buf.toString());
 			buf.setLength(0);
 		}
