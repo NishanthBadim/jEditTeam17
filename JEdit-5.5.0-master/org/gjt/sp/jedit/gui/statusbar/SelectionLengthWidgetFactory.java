@@ -97,7 +97,7 @@ public class SelectionLengthWidgetFactory implements StatusWidgetFactory
 				}
 				else
 					len = selectionEnd - selectionStart;
-				selectionLength.setText("Hello");
+				selectionLength.setText(Integer.toString(len));
 			}
 		}
 

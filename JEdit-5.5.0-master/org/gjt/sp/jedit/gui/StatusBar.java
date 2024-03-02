@@ -410,6 +410,7 @@ public class StatusBar extends JPanel
 				buf.append('/');
 				buf.append(bufferLength);
 				buf.append(')');
+
 				buf.append(' ');
 				// Append word offset and total word count to the status bar text
 				buf.append('(');
@@ -431,8 +432,11 @@ public class StatusBar extends JPanel
 				buf.append(')');
 			}
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> d3ab5deaf631d083e539bd1bbb52884f0701c054
 			caretStatus.setText(buf.toString());
 			buf.setLength(0);
 		}

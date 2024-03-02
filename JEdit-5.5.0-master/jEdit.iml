@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module relativePaths="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager">
+
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+
     <output url="file://$MODULE_DIR$/build/classes/core" />
     <output-test url="file://$MODULE_DIR$/build/classes/test" />
     <exclude-output />
@@ -29,3 +31,4 @@
     </orderEntry>
   </component>
 </module>
+
