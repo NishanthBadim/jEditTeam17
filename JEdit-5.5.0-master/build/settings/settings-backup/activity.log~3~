@@ -1,0 +1,108 @@
+Log file created on Tue Feb 20 21:45:04 CST 2024
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+9:45:01 PM [main] [message] Log: When reporting bugs, please include the following information:
+9:45:01 PM [main] [message] Log: java.version=1.8.0_181
+9:45:01 PM [main] [message] Log: java.vm.version=25.181-b13
+9:45:01 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+9:45:01 PM [main] [message] Log: java.runtime.version=1.8.0_181-b13
+9:45:01 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+9:45:01 PM [main] [message] Log: java.vendor=Oracle Corporation
+9:45:01 PM [main] [message] Log: java.compiler=null
+9:45:01 PM [main] [message] Log: os.name=Windows 10
+9:45:01 PM [main] [message] Log: os.version=10.0
+9:45:01 PM [main] [message] Log: os.arch=amd64
+9:45:01 PM [main] [message] Log: user.home=C:\Users\nisha
+9:45:01 PM [main] [message] Log: java.home=C:\Program Files\Java\jdk1.8.0_181\jre
+9:45:01 PM [main] [message] Log: java.class.path=C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\classes\core;D:\UTD\SMER\jsr305-3.0.2.jar;D:\IntelliJ IDEA Community Edition 2023.1.3\lib\idea_rt.jar
+9:45:01 PM [main] [message] jEdit: starting with command line arguments: -settings=D:/UTD/SMER/jEditTeam17/JEdit-5.5.0-master/build/settings
+9:45:03 PM [main] [notice] jEdit: An error occurred while connecting to the jEdit server instance.
+9:45:03 PM [main] [notice] jEdit: This probably means that jEdit crashed and/or exited abnormally
+9:45:03 PM [main] [notice] jEdit: the last time it was run.
+9:45:03 PM [main] [notice] jEdit: If you don't know what this means, don't worry.
+9:45:03 PM [main] [notice] jEdit: java.net.ConnectException: Connection refused: connect
+9:45:03 PM [main] [notice] jEdit:  at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+9:45:03 PM [main] [notice] jEdit:  at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+9:45:03 PM [main] [notice] jEdit:  at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+9:45:03 PM [main] [notice] jEdit:  at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+9:45:03 PM [main] [notice] jEdit:  at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+9:45:03 PM [main] [notice] jEdit:  at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+9:45:03 PM [main] [notice] jEdit:  at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+9:45:03 PM [main] [notice] jEdit:  at java.net.Socket.connect(Socket.java:589)
+9:45:03 PM [main] [notice] jEdit:  at java.net.Socket.connect(Socket.java:538)
+9:45:03 PM [main] [notice] jEdit:  at java.net.Socket.<init>(Socket.java:434)
+9:45:03 PM [main] [notice] jEdit:  at java.net.Socket.<init>(Socket.java:244)
+9:45:03 PM [main] [notice] jEdit:  at org.gjt.sp.jedit.jEdit.main(jEdit.java:320)
+9:45:03 PM [main] [debug] jEdit: before splash screen activation:2118 ms
+9:45:04 PM [main] [debug] jEdit: after splash screen activation:2468 ms
+9:45:04 PM [main] [debug] MiscUtilities: Saving backup of file "D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\activity.log" to "D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\settings-backup\activity.log~1~"
+9:45:04 PM [main] [notice] jEdit: jEdit version 5.5.0
+9:45:04 PM [main] [message] jEdit: Settings directory is D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings
+9:45:04 PM [main] [message] jEdit: jEdit home directory is D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master
+9:45:04 PM [main] [debug] SplashScreen: init:22/231ms
+9:45:04 PM [main] [debug] SplashScreen: init system properties:30/261ms
+9:45:04 PM [main] [message] BeanShell: Beanshell Init
+9:45:04 PM [main] [debug] SplashScreen: init beanshell:92/353ms
+9:45:04 PM [main] [debug] SplashScreen: loading site properties:2/355ms
+9:45:04 PM [main] [debug] SplashScreen: loading user properties:4/359ms
+9:45:04 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+9:45:04 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+9:45:04 PM [main] [debug] SplashScreen: init GUI:9/368ms
+9:45:04 PM [main] [debug] EditServer: jEdit server started on port 59980
+9:45:04 PM [main] [debug] EditServer: Authorization key is 804279185
+9:45:04 PM [main] [debug] SplashScreen: init server:2/370ms
+9:45:04 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+9:45:04 PM [main] [debug] SplashScreen: init look and feel:5/375ms
+9:45:04 PM [main] [debug] SplashScreen: init VFS Manager:2/377ms
+9:45:04 PM [main] [debug] ActionSet: Loading actions from file:/D:/UTD/SMER/jEditTeam17/JEdit-5.5.0-master/build/classes/core/org/gjt/sp/jedit/actions.xml
+9:45:04 PM [main] [debug] DockableWindowManager: Loading dockables from file:/D:/UTD/SMER/jEditTeam17/JEdit-5.5.0-master/build/classes/core/org/gjt/sp/jedit/dockables.xml
+9:45:04 PM [main] [debug] SplashScreen: init resources:135/512ms
+9:45:04 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+9:45:04 PM [main] [debug] SplashScreen: Migrate keymaps:44/556ms
+9:45:04 PM [main] [notice] jEdit: Loading plugins from D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\jars
+9:45:04 PM [main] [notice] jEdit: Loading plugins from D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\jars
+9:45:04 PM [main] [debug] SplashScreen: init plugins:10/566ms
+9:45:04 PM [main] [debug] SplashScreen: init history model:3/569ms
+9:45:04 PM [main] [message] BufferHistory: Loading D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\recent.xml
+9:45:04 PM [main] [debug] SplashScreen: init buffer history:21/590ms
+9:45:04 PM [main] [message] KillRing: Loading D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\killring.xml
+9:45:04 PM [main] [debug] SplashScreen: init killring:36/626ms
+9:45:04 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+9:45:04 PM [main] [debug] jEdit: SOCKS proxy disabled
+9:45:04 PM [main] [debug] jEdit: HTTP proxy disabled
+9:45:04 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+9:45:04 PM [main] [debug] SplashScreen: init various properties:158/784ms
+9:45:04 PM [main] [message] jEdit: Loading mode catalog file D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\modes\catalog
+9:45:04 PM [main] [message] jEdit: Loading mode catalog file D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\modes\catalog
+9:45:04 PM [main] [debug] SplashScreen: init modes:74/858ms
+9:45:04 PM [main] [debug] SplashScreen: activate plugins:8/866ms
+9:45:04 PM [main] [debug] Macros: Registered beanshell macro handler
+9:45:04 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+9:45:04 PM [main] [debug] SplashScreen: init macros:20/886ms
+9:45:04 PM [main] [message] BeanShell: Running script D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\startup\startup.bsh
+9:45:04 PM [main] [notice] jEdit$5: Loading edit mode D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\modes\text.xml
+9:45:05 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+9:45:05 PM [main] [debug] SplashScreen: run startup scripts:162/1048ms
+9:45:05 PM [main] [debug] SplashScreen: run startup scripts:2/1050ms
+9:45:05 PM [main] [debug] SplashScreen: run startup scripts:2/1050ms
+9:45:05 PM [main] [debug] jEdit: main done:3338 ms
+9:45:05 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\perspective.xml
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\)]
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\)]
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\)]
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\)]
+9:45:05 PM [AWT-EventQueue-0] [debug] BufferSet: 573884701: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:45:05 PM [AWT-EventQueue-0] [debug] BufferSet: 573884701 addBufferAt(Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\),-1)
+9:45:05 PM [AWT-EventQueue-0] [debug] BufferSet: 573884701: Buffer added Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\) at 0
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:45:05 PM [AWT-EventQueue-0] [debug] BufferSet: 573884701 addBufferAt(Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\),0)
+9:45:05 PM [AWT-EventQueue-0] [debug] BufferSet: 573884701 addBufferAt(Untitled-1 (D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\),1)
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+9:45:05 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 4068 ms
+9:45:05 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+9:45:05 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+9:45:34 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\perspective.xml" to "D:\UTD\SMER\jEditTeam17\JEdit-5.5.0-master\build\settings\settings-backup\perspective.xml~1~"
