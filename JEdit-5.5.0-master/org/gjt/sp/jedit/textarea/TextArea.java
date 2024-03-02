@@ -152,6 +152,15 @@ public abstract class TextArea extends JPanel
 		focusedComponent = this;
 	} //}}}
 
+	public void hideScrollBars(){
+		vertical.setVisible(!vertical.isVisible());
+		horizontal.setVisible(!horizontal.isVisible());
+	}
+
+	public boolean scrollBarsAreHidden(){
+		return !vertical.isVisible() && !horizontal.isVisible();
+	}
+
 	//{{{ getFoldPainter() method
 	public FoldPainter getFoldPainter()
 	{
