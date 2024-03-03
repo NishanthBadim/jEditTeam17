@@ -1582,6 +1582,15 @@
 	</IS_SELECTED>
 </ACTION>
 
+	<ACTION NAME="toggle-scrollbar">
+		<CODE>
+			textArea.hideScrollBars();
+		</CODE>
+		<IS_SELECTED>
+			return textArea.scrollBarsAreHidden();
+		</IS_SELECTED>
+	</ACTION>
+
 <ACTION NAME="toggle-line-separator">
 	<CODE>
 		buffer.toggleLineSeparator(view);
