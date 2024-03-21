@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module relativePaths="true" type="JAVA_MODULE" version="4">
-
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
-
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/build/classes/core" />
     <output-test url="file://$MODULE_DIR$/build/classes/test" />
     <exclude-output />
@@ -14,6 +12,9 @@
       <excludeFolder url="file://$MODULE_DIR$/lib" />
       <excludeFolder url="file://$MODULE_DIR$/org/gjt/sp/jedit/bsh/commands" />
       <excludeFolder url="file://$MODULE_DIR$/textarea" />
+      <excludeFolder url="file://$MODULE_DIR$/codemr/jEdit/html" />
+      <excludeFolder url="file://$MODULE_DIR$/codemr/jEdit 1/html" />
+      <excludeFolder url="file://$MODULE_DIR$/codemr/jEdit 2/html" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -31,4 +32,3 @@
     </orderEntry>
   </component>
 </module>
-
