@@ -1383,7 +1383,6 @@ public class View extends JFrame implements InputHandlerProvider
 		boolean alternateLayout = jEdit.getBooleanProperty(
 			"view.toolbar.alternateLayout");
 		boolean showMenu = jEdit.getBooleanProperty("fullScreenIncludesMenu");
-		boolean showToolbars = jEdit.getBooleanProperty("fullScreenIncludesToolbar");
 		boolean showStatus = jEdit.getBooleanProperty("fullScreenIncludesStatus");
 		if (! showMenu)
 		{
@@ -1744,92 +1743,7 @@ loop:		while (true)
 			case StreamTokenizer.TT_EOF:
 				break loop;
 			case StreamTokenizer.TT_WORD:
-				if("vertical".equals(st.sval) || "horizontal".equals(st.sval))
-				{
-					int orientation
-						= "vertical".equals(st.sval)
-						? JSplitPane.VERTICAL_SPLIT
-						: JSplitPane.HORIZONTAL_SPLIT;
-					int divider = (Integer) stack.pop();
-					Object obj1 = stack.pop();
-					Object obj2 = stack.pop();
-					// Backward compatibility with pre-bufferset versions
-					if (obj1 instanceof Buffer)
-					{
-						Buffer b1 = buffer = (Buffer) obj1;
-						obj1 = editPane = createEditPane(b1);
-					}
-					if (obj2 instanceof Buffer)
-					{
-						Buffer b2 = (Buffer) obj2;
-						obj2 = createEditPane(b2);
-					}
-					stack.push(splitPane = new JSplitPane(
-						orientation,
-						(Component)obj1,
-						(Component)obj2));
-					splitPane.setOneTouchExpandable(true);
-					splitPane.setBorder(null);
-					splitPane.setMinimumSize(
-						new Dimension(0,0));
-					splitPane.setDividerLocation(divider);
-				}
-				else if("buffer".equals(st.sval))
-				{
-					Object obj = stack.pop();
-					if(obj instanceof Integer)
-					{
-						int index = (Integer) obj;
-						if(index >= 0 && index < buffers.length)
-							buffer = buffers[index];
-					}
-					else if(obj instanceof String)
-					{
-						String path = (String)obj;
-						buffer = jEdit.getBuffer(path);
-						if (buffer == null)
-						{
-							buffer = jEdit.openTemporary(jEdit.getActiveView(), null,
-												path, true, null, true);
-							jEdit.commitTemporary(buffer);
-						}
-					}
-
-					if(buffer == null)
-						buffer = jEdit.getFirstBuffer();
-					stack.push(buffer);
-					editPaneBuffers.add(buffer);
-				}
-				else if ("buff".equals(st.sval))
-				{
-					String path = (String)stack.pop();
-					buffer = jEdit.getBuffer(path);
-					if (buffer == null)
-					{
-						Log.log(Log.WARNING, this, "Buffer " + path + " doesn't exist");
-					}
-					else
-					{
-						editPaneBuffers.add(buffer);
-					}
-				}
-				else if ("bufferset".equals(st.sval))
-				{
-					// pop the bufferset scope. Not used anymore but still here for compatibility
-					// with old perspectives
-					stack.pop();
-					buffer = (Buffer) stack.pop();
-					editPane = createEditPane(buffer);
-					stack.push(editPane);
-					BufferSet bufferSet = editPane.getBufferSet();
-					int i = 0;
-					for (Buffer buff : editPaneBuffers)
-					{
-						bufferSet.addBufferAt(buff,i);
-						i++;
-					}
-					editPaneBuffers.clear();
-				}
+				buffer = getBuffer(buffer, buffers, stack, st, editPaneBuffers);
 				break;
 			case StreamTokenizer.TT_NUMBER:
 				stack.push((int)st.nval);
@@ -1851,6 +1765,96 @@ loop:		while (true)
 
 		return (Component)obj;
 	} //}}}
+
+	private Buffer getBuffer(Buffer buffer, Buffer[] buffers, Stack<Object> stack, StreamTokenizer st, List<Buffer> editPaneBuffers) {
+		if("vertical".equals(st.sval) || "horizontal".equals(st.sval))
+		{
+			int orientation
+				= "vertical".equals(st.sval)
+				? JSplitPane.VERTICAL_SPLIT
+				: JSplitPane.HORIZONTAL_SPLIT;
+			int divider = (Integer) stack.pop();
+			Object obj1 = stack.pop();
+			Object obj2 = stack.pop();
+			// Backward compatibility with pre-bufferset versions
+			if (obj1 instanceof Buffer)
+			{
+				Buffer b1 = buffer = (Buffer) obj1;
+				obj1 = editPane = createEditPane(b1);
+			}
+			if (obj2 instanceof Buffer)
+			{
+				Buffer b2 = (Buffer) obj2;
+				obj2 = createEditPane(b2);
+			}
+			stack.push(splitPane = new JSplitPane(
+				orientation,
+				(Component)obj1,
+				(Component)obj2));
+			splitPane.setOneTouchExpandable(true);
+			splitPane.setBorder(null);
+			splitPane.setMinimumSize(
+				new Dimension(0,0));
+			splitPane.setDividerLocation(divider);
+		}
+		else if("buffer".equals(st.sval))
+		{
+			Object obj = stack.pop();
+			if(obj instanceof Integer)
+			{
+				int index = (Integer) obj;
+				if(index >= 0 && index < buffers.length)
+					buffer = buffers[index];
+			}
+			else if(obj instanceof String)
+			{
+				String path = (String)obj;
+				buffer = jEdit.getBuffer(path);
+				if (buffer == null)
+				{
+					buffer = jEdit.openTemporary(jEdit.getActiveView(), null,
+										path, true, null, true);
+					jEdit.commitTemporary(buffer);
+				}
+			}
+
+			if(buffer == null)
+				buffer = jEdit.getFirstBuffer();
+			stack.push(buffer);
+			editPaneBuffers.add(buffer);
+		}
+		else if ("buff".equals(st.sval))
+		{
+			String path = (String) stack.pop();
+			buffer = jEdit.getBuffer(path);
+			if (buffer == null)
+			{
+				Log.log(Log.WARNING, this, "Buffer " + path + " doesn't exist");
+			}
+			else
+			{
+				editPaneBuffers.add(buffer);
+			}
+		}
+		else if ("bufferset".equals(st.sval))
+		{
+			// pop the bufferset scope. Not used anymore but still here for compatibility
+			// with old perspectives
+			stack.pop();
+			buffer = (Buffer) stack.pop();
+			editPane = createEditPane(buffer);
+			stack.push(editPane);
+			BufferSet bufferSet = editPane.getBufferSet();
+			int i = 0;
+			for (Buffer buff : editPaneBuffers)
+			{
+				bufferSet.addBufferAt(buff,i);
+				i++;
+			}
+			editPaneBuffers.clear();
+		}
+		return buffer;
+	}
 
 	//{{{ propertiesChanged() method
 	/**

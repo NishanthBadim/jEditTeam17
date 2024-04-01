@@ -3238,7 +3238,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
         BSHTypedVariableDeclaration jjtn000 = new BSHTypedVariableDeclaration(JJTTYPEDVARIABLEDECLARATION);
         boolean jjtc000 = true;
         jjtree.openNodeScope(jjtn000);
-        jjtreeOpenNodeScope(jjtn000);Token t = null;
+        jjtreeOpenNodeScope(jjtn000);
         Modifiers mods;
     try {
       mods = Modifiers(Modifiers.FIELD, false);
