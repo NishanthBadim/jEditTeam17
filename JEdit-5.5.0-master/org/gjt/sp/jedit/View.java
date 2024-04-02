@@ -1746,10 +1746,10 @@ loop:		while (true)
 				buffer = getBuffer(buffer, buffers, stack, st, editPaneBuffers);
 				break;
 			case StreamTokenizer.TT_NUMBER:
-				stack.push((int)st.nval);
+				handleNumber(stack, st);
 				break;
 			case '"':
-				stack.push(st.sval);
+				handleQuote(stack, st);
 				break;
 			}
 		}
@@ -1854,6 +1854,14 @@ loop:		while (true)
 			editPaneBuffers.clear();
 		}
 		return buffer;
+	}
+
+	private void handleNumber(Stack<Object> stack, StreamTokenizer st) {
+		stack.push((int) st.nval);
+	}
+
+	private void handleQuote(Stack<Object> stack, StreamTokenizer st) {
+		stack.push(st.sval);
 	}
 
 	//{{{ propertiesChanged() method
